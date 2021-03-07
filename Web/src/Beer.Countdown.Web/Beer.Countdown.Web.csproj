@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Components\CountdownAndSummary.razor.css" />
+    <None Remove="Components\CountdownTimer.razor.css" />
+    <None Remove="Components\NumberAndFooter.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Components\CountdownAndSummary.razor.css" />
+    <Content Include="Components\CountdownTimer.razor.css" />
+    <Content Include="Components\NumberAndFooter.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Blazorise" Version="0.9.1.2" />
     <PackageReference Include="Blazorise.Bootstrap" Version="0.9.1.2" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="0.9.1.2" />

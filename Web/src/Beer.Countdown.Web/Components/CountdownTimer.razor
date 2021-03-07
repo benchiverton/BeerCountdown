@@ -1,0 +1,19 @@
+<div class="countdownContainer">
+    <div class="numberAndFooterContainer">
+        <NumberAndFooter Number="(int)TimeUntilCompleted.TotalDays" Footer="Days" />
+    </div>
+    <div class="numberAndFooterContainer">
+        <NumberAndFooter Number="TimeUntilCompleted.Hours" Footer="Hours" />
+    </div>
+    <div class="numberAndFooterContainer">
+        <NumberAndFooter Number="TimeUntilCompleted.Minutes" Footer="Minutes" />
+    </div>
+    <div class="numberAndFooterContainer">
+        <NumberAndFooter Number="TimeUntilCompleted.Seconds" Footer="Seconds" />
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public TimeSpan TimeUntilCompleted { get; set; }
+}

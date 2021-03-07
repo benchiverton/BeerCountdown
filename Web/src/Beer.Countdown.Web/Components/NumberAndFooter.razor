@@ -1,0 +1,12 @@
+<div class="numberAndFooter">
+    <h1>@Number.ToString("D2")</h1>
+    <h6>@Footer</h6>
+</div>
+
+@code {
+    [Parameter]
+    public int Number { get; set; }
+
+    [Parameter]
+    public string Footer { get; set; }
+}
