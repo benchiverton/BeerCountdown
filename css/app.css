@@ -1,6 +1,10 @@
 /* CSS for markup in index.html, including loading screen */
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+body {
+    font-family: Tahoma;
+}
+
 app {
     position: relative;
     display: flex;

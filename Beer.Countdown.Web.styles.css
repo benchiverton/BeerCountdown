@@ -1,25 +1,42 @@
 /* /Components/CountdownAndSummary.razor.rz.scp.css */
 .countdownAndSummary[b-aaofpf6vrd] {
     color: white;
-    border-radius: 25px;
-    margin: 20px;
-    padding: 20px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.summary[b-aaofpf6vrd] {
+    margin: auto;
+    text-align: center;
 }
 /* /Components/CountdownTimer.razor.rz.scp.css */
 .countdownContainer[b-hjcf7pxjnm] {
     height: 100px;
+    width: fit-content;
+    margin: auto;
 }
 
 .numberAndFooterContainer[b-hjcf7pxjnm]{
     float: left;
     width: 75px;
 }
+
+.nowAllowedContainer[b-hjcf7pxjnm]{
+    text-align: center;
+}
 /* /Components/NumberAndFooter.razor.rz.scp.css */
 .numberAndFooter[b-hl8xos5epy] {
+    text-align: center;
 }
 /* /Home/Index.razor.rz.scp.css */
 .content[b-dywsvsl1s9] {
     padding-top: 1.1rem;
+}
+
+.countdownSummary[b-dywsvsl1s9] {
+    color: #C96E12;
+    text-align: center;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .main[b-wb845okuex] {
