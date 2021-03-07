@@ -101,7 +101,7 @@
       "url": "_framework\/dotnet.5.0.3.js"
     },
     {
-      "hash": "sha256-Jzp1O04IaEo7qit9czJ90IdM0HHh9xRpa5OOcqwHX+0=",
+      "hash": "sha256-mfcGJRexSDdcTL\/DIcKvsMmqYZWFJ5k773ap0vcRycU=",
       "url": "Beer.Countdown.Web.styles.css"
     },
     {
@@ -205,7 +205,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-ZhzSlddzL\/fZtddzmj6cFS0sHV628fwt6yHFVmnbRTY=",
+      "hash": "sha256-yCHaCCoi7Yx5z+9jj+1Ir+UWs0xektg7oaw38coKYLk=",
       "url": "_framework\/Beer.Countdown.Web.dll"
     },
     {
@@ -309,7 +309,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-UTYkyY0Txu2HZCYDpk+KJIWMymutDFHTK4vHFWpmRGI=",
+      "hash": "sha256-32pv8C+141kqP112YlFFXrvVl3Zw6GGjjo9qKgGZzdk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -317,5 +317,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "tFviulAn"
+  "version": "Q+kvdIgD"
 };

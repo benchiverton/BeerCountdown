@@ -1,6 +1,9 @@
 /* /Components/CountdownAndSummary.razor.rz.scp.css */
-.countdownAndSummary[b-aaofpf6vrd]{
+.countdownAndSummary[b-aaofpf6vrd] {
     color: white;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
 }
 /* /Components/CountdownTimer.razor.rz.scp.css */
 .countdownContainer[b-hjcf7pxjnm] {
