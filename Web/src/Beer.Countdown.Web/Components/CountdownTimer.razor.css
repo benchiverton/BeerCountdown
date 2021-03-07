@@ -1,8 +1,14 @@
 .countdownContainer {
     height: 100px;
+    width: fit-content;
+    margin: auto;
 }
 
 .numberAndFooterContainer{
     float: left;
     width: 75px;
+}
+
+.nowAllowedContainer{
+    text-align: center;
 }

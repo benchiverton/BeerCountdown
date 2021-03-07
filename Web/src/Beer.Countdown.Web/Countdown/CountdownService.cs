@@ -6,8 +6,10 @@ namespace Beer.Countdown.Web.Countdown
 {
     public interface ICountdownService
     {
-        TimeSpan TimeUntilBeerWithSixFriendsOutside { get; }
-        TimeSpan TimeUntilBeerWithSixFriendsInside { get; }
+        TimeSpan TimeUntilBeerWithOneFriendOutdoors { get; }
+        TimeSpan TimeUntilBeerWithFiveFriendsOutdoors { get; }
+        TimeSpan TimeUntilOutdoorsOfPubsOpen { get; }
+        TimeSpan TimeUntilBeerWithFiveFriendsIndoors { get; }
         TimeSpan TimeUntilBeerWithUnlimitedFriendsAnywhere { get; }
         event Action OnChange;
     }
@@ -35,8 +37,10 @@ namespace Beer.Countdown.Web.Countdown
             _timer.Start();
         }
 
-        public TimeSpan TimeUntilBeerWithSixFriendsOutside { get; private set; }
-        public TimeSpan TimeUntilBeerWithSixFriendsInside { get; private set; }
+        public TimeSpan TimeUntilBeerWithOneFriendOutdoors { get; private set; }
+        public TimeSpan TimeUntilBeerWithFiveFriendsOutdoors { get; private set; }
+        public TimeSpan TimeUntilOutdoorsOfPubsOpen { get; private set; }
+        public TimeSpan TimeUntilBeerWithFiveFriendsIndoors { get; private set; }
         public TimeSpan TimeUntilBeerWithUnlimitedFriendsAnywhere { get; private set; }
 
         public event Action OnChange;
@@ -46,8 +50,10 @@ namespace Beer.Countdown.Web.Countdown
         private void Update()
         {
             var now = DateTime.Now;
-            TimeUntilBeerWithSixFriendsOutside = (_configuration.SixPeopleOutsideDate - now);
-            TimeUntilBeerWithSixFriendsInside = (_configuration.SixPeopleInsideDate - now);
+            TimeUntilBeerWithOneFriendOutdoors = (_configuration.TwoPeopleOutdoorsDate - now);
+            TimeUntilBeerWithFiveFriendsOutdoors = (_configuration.SixPeopleOutdoorsDate - now);
+            TimeUntilOutdoorsOfPubsOpen = (_configuration.NonEssentialShopsOpeningDate - now);
+            TimeUntilBeerWithFiveFriendsIndoors = (_configuration.SixPeopleIndoorsDate - now);
             TimeUntilBeerWithUnlimitedFriendsAnywhere = (_configuration.RestrictionsLifted - now);
 
             OnChange?.Invoke();

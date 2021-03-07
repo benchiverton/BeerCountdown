@@ -1,16 +1,28 @@
 <div class="countdownContainer">
-    <div class="numberAndFooterContainer">
-        <NumberAndFooter Number="(int)TimeUntilCompleted.TotalDays" Footer="Days" />
-    </div>
-    <div class="numberAndFooterContainer">
-        <NumberAndFooter Number="TimeUntilCompleted.Hours" Footer="Hours" />
-    </div>
-    <div class="numberAndFooterContainer">
-        <NumberAndFooter Number="TimeUntilCompleted.Minutes" Footer="Minutes" />
-    </div>
-    <div class="numberAndFooterContainer">
-        <NumberAndFooter Number="TimeUntilCompleted.Seconds" Footer="Seconds" />
-    </div>
+    @if (TimeUntilCompleted > new TimeSpan(0, 0, 0))
+    {
+        <div class="numberAndFooterContainer">
+            <NumberAndFooter Number="(int)TimeUntilCompleted.TotalDays" Footer="Days" />
+        </div>
+        @if ((int)TimeUntilCompleted.TotalDays < 7)
+        {
+            <div class="numberAndFooterContainer">
+                <NumberAndFooter Number="TimeUntilCompleted.Hours" Footer="Hours" />
+            </div>
+            <div class="numberAndFooterContainer">
+                <NumberAndFooter Number="TimeUntilCompleted.Minutes" Footer="Minutes" />
+            </div>
+            <div class="numberAndFooterContainer">
+                <NumberAndFooter Number="TimeUntilCompleted.Seconds" Footer="Seconds" />
+            </div>
+        }
+    }
+    else
+    {
+        <div class="nowAllowedContainer">
+            <h1>ALLOWED!! 🎉🎉🎉</h1>
+        </div>
+    }
 </div>
 
 @code {

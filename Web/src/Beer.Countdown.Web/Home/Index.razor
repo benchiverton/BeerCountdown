@@ -1,29 +1,31 @@
 @page "/"
 @inject ICountdownService _countdownService
 
-<div>
-    <h2>
-        TODO:
-        - Change Font
-        - Add Page Summary
-        - Update Countdown Summaries
-    </h2>
-    <div class="row">
-        <div class="col-md-6">
-            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsOutside"
-                                 Summary="Time until you can drink beer with six friends outside"
-                                 BackgroundColor="#EC9D00" />
-        </div>
-        <div class="col-md-6">
-            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsInside"
-                                 Summary="Time until you can drink beer with six friends inside"
-                                 BackgroundColor="#DF8D03" />
-        </div>
-        <div class="col-md-6">
-            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithUnlimitedFriendsAnywhere"
-                                 Summary="Time until you can drink beer with everyone anywhere!"
-                                 BackgroundColor="#C96E12" />
-        </div>
+<div class="row">
+    <div class="col-md-6">
+        <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithOneFriendOutdoors"
+                             Summary="Pints outdoors, with one other person."
+                             BackgroundColor="#DF8D03" />
+    </div>
+    <div class="col-md-6">
+        <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithFiveFriendsOutdoors"
+                             Summary="Pints outdoors, with up to five other people."
+                             BackgroundColor="#C96E12" />
+    </div>
+    <div class="col-md-6">
+        <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilOutdoorsOfPubsOpen"
+                             Summary="Pints in pub gardens, with up to five other people."
+                             BackgroundColor="#EC9D00" />
+    </div>
+    <div class="col-md-6">
+        <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithFiveFriendsIndoors"
+                             Summary="Pints indoors, with up to five other people."
+                             BackgroundColor="#DF8D03" />
+    </div>
+    <div class="col-md-6">
+        <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithUnlimitedFriendsAnywhere"
+                             Summary="Pints anwhere, and with anyone."
+                             BackgroundColor="#C96E12" />
     </div>
 </div>
 

@@ -35,10 +35,10 @@ namespace Beer.Countdown.Web
 
             builder.Services.AddTransient(ctx => new CountdownConfiguration
             {
-                SchoolsOpeningDate = new DateTime(2021, 03, 08),
-                SixPeopleOutsideDate = new DateTime(2021, 03, 29),
+                TwoPeopleOutdoorsDate = new DateTime(2021, 03, 08),
+                SixPeopleOutdoorsDate = new DateTime(2021, 03, 29),
                 NonEssentialShopsOpeningDate = new DateTime(2021, 04, 12),
-                SixPeopleInsideDate = new DateTime(2021, 05, 17),
+                SixPeopleIndoorsDate = new DateTime(2021, 05, 17),
                 RestrictionsLifted = new DateTime(2021, 06, 21)
             });
             builder.Services.AddTransient<ICountdownService, CountdownService>();
