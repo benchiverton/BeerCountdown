@@ -18,7 +18,7 @@
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-7mxFRRlriJzO95ZBz4cmDSFADogdaoDy8MxzQoNtwaU=",
       "Microsoft.Extensions.Configuration.Json.dll": "sha256-cwzKuqTaJjYc5QXknt6NaBt\/MWSt9DYHfmu0I\/CV2mc=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-bqAmv+2te1foBbCZP6+QwNa+Ej9GVKQRvn\/O1lINe2k=",
-      "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-r6WgJXN3wXdaJW8BSYEr5oAYANlORkuCIxkD6w5G+Dc=",
+      "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-2XqNuifegc3WW9do55r7vUuCJr\/warCr1DMA8MMOzPc=",
       "Microsoft.Extensions.Logging.dll": "sha256-SozZnCb38JE0AZkWYzjZ0ZSZx5WGRjD2xu0lZYPuoL0=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-OsmdQoFiNmpqW0WHVklQ4R5\/fLVeqFPmPBRQzZxxufQ=",
       "Microsoft.Extensions.Options.dll": "sha256-g1C9Fnh++M4k1mLduCz2yUnf\/70tTCbdZ\/s6bDjsmZM=",
@@ -28,7 +28,7 @@
       "Serilog.dll": "sha256-wH3IsHPut+LkfEWNN6C7cxJKZtqfsA7Y1VxtnPwa\/04=",
       "Serilog.Sinks.BrowserConsole.dll": "sha256-AVcWiFfvr0c2mXU3y+T0uct\/zTC7r\/SRMDJMee09LKo=",
       "System.IO.Pipelines.dll": "sha256-CETD5tkXtiKEgbXyN\/lp0Ejf6LcHIhgeQIEyow2mhmY=",
-      "Beer.Countdown.Web.dll": "sha256-ug70nzc\/BmwaXbrnN11XTggxuH1hgDwE5V539Sy08Ns=",
+      "Beer.Countdown.Web.dll": "sha256-ZhzSlddzL\/fZtddzmj6cFS0sHV628fwt6yHFVmnbRTY=",
       "System.Collections.Concurrent.dll": "sha256-eQJIqHuO0Txupm1wJAllmMdQFRSktE0TagWg4ammYs4=",
       "System.Collections.Immutable.dll": "sha256-SE00rWOmDtyZeENkcrlTZ2NFjTAUiOw5LYbXD9htMKU=",
       "System.Collections.Specialized.dll": "sha256-errFG48XQTSFl6CbfcTgdQGjQ8r5AQQyN6UkH+kzBqA=",
@@ -53,7 +53,7 @@
       "System.Text.Encodings.Web.dll": "sha256-7zfVa0Sh3YX3rjXhVE9KavYLMY3oPRdMurK29PgghFA=",
       "System.Text.Json.dll": "sha256-BmLyOVFTn\/2QAsEDO\/8qZVqLgsGXnzjJ+uzyNhKtU1U=",
       "System.Text.RegularExpressions.dll": "sha256-8TtRk3Iu0UzHPGlWGWdnj2HkhEaWA8dLWJ6jOkTFu+E=",
-      "System.Private.CoreLib.dll": "sha256-Gl9a6dOwNpjXfA0HQu5VMc9Ewlehxsp5csbKxu9vQHk="
+      "System.Private.CoreLib.dll": "sha256-qRHs6hL+gVVwlxsqucWvKPzCrED\/z5wPvjfAeq1dz6s="
     },
     "lazyAssembly": null,
     "pdb": null,
