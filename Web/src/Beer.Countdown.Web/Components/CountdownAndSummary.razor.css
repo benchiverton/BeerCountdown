@@ -1,3 +1,6 @@
-.countdownAndSummary{
+.countdownAndSummary {
     color: white;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
 }

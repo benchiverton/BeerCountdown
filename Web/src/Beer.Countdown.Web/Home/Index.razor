@@ -1,19 +1,31 @@
 @page "/"
 @inject ICountdownService _countdownService
 
-<CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsOutside"
-                     Summary="Time until you can drink beer with six friends outside"
-                     BackgroundColor="#EC9D00" />
-<CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsInside"
-                     Summary="Time until you can drink beer with six friends inside"
-                     BackgroundColor="#DF8D03" />
-<CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithUnlimitedFriendsAnywhere"
-                     Summary="Time until you can drink beer with everyone anywhere!"
-                     BackgroundColor="#C96E12" />
-
-@*<div class="content px-4">
-    <h1>🍺🍺🍺 hello world!</h1>
-</div>*@
+<div>
+    <h2>
+        TODO:
+        - Change Font
+        - Add Page Summary
+        - Update Countdown Summaries
+    </h2>
+    <div class="row">
+        <div class="col-md-6">
+            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsOutside"
+                                 Summary="Time until you can drink beer with six friends outside"
+                                 BackgroundColor="#EC9D00" />
+        </div>
+        <div class="col-md-6">
+            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithSixFriendsInside"
+                                 Summary="Time until you can drink beer with six friends inside"
+                                 BackgroundColor="#DF8D03" />
+        </div>
+        <div class="col-md-6">
+            <CountdownAndSummary TimeUntilCompleted="_countdownService.TimeUntilBeerWithUnlimitedFriendsAnywhere"
+                                 Summary="Time until you can drink beer with everyone anywhere!"
+                                 BackgroundColor="#C96E12" />
+        </div>
+    </div>
+</div>
 
 @code {
     protected override void OnInitialized()
